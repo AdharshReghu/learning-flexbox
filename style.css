@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 18px;
+    color: rgb(206, 200, 200);
+}
+
+#wrapper{
+    margin: 0 auto;
+    max-width: 700px;
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+
+.blue-box{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    min-height: 450px;
+    border-radius: 35px;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+    flex:1 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.rightScore .largeScore{
+    font-size: 70px;
+    font-weight:900
+}
+
+.rightScore .SmallScore{
+    color: rgb(206, 200, 200);;
+}
+
+
+.rightScore{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.appr{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.white-box{
+    padding: 15px;
+    border: 2px solid green;
+    flex:1 1 50%;
+}
+
+

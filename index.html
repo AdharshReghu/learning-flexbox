@@ -5,15 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
 <body>
 <div id="wrapper">
-  <section id="main">
-
-  </section>
+    <div class="blue-box">
+        <h2>Your Results</h2>
+        <div class="rightScore">
+          <span class="largeScore">76</span>
+          <span class="SmallScore">of 100</span>
+        </div>
+    
+        <div class="appr">
+          <span class="largeText">Great</span>
+        </div>
+        <div class="relative">
+          <p>You scored higher than 65% of the people who have taken these tests</p>
+        </div>
+     </div>
+    <div class="white-box">
+      <section class="boxes">
+          <h2>Summary</h2>
+          <div class="LeftScore">
+              <div class="reaction">
+                <img src="assets\images\icon-reaction.svg" alt="Reaction">
+                <span class="text">Reaction</span><span class="Score">80</span><span class="grey-score">/100</span>
+              </div>
+              <div class="memory">
+                <img src="assets\images\icon-memory.svg" alt="Memory">
+                <span class="text">Memory</span><span class="Score">92</span><span class="grey-score">/100</span>
+              </div>
+              <div class="verbal">
+                <img src="assets\images\icon-verbal.svg" alt="Verbal">
+                <span class="text">Verbal</span><span class="Score">61</span><span class="grey-score">/100</span>
+              </div>
+              <div class="visual">
+                <img src="assets\images\icon-visual.svg" alt="Visual">
+                <span class="text">Visual</span><span class="Score">72</span><span class="grey-score">/100</span>
+              </div>
+          </div>
+    </div>
 </div>
 </body>
 </html>
