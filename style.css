@@ -105,6 +105,10 @@ p{
     border-radius: 10px;
 }
 
+.lbox .grouped .text{
+    padding-left: 10px;
+}
+
 .grouped{
     display: flex;
     align-items: center;
@@ -128,23 +132,46 @@ p{
     border-radius: 25px;
 }
 
+
 .grey-score{
     color: rgb(195, 192, 192);
 }
 
-.reaction{
+.reaction {
     background-color:  hsl(0, 91%, 96%);
 
 }
 
-.memory{
+.memory {
     background-color: hsl(39, 100%, 96%);
+
 }
 
-.verbal{
+.verbal {
     background-color:  hsl(166, 91%, 96%);
 }
 
 .visual{
     background-color: hsl(234, 85%, 96%);
+}
+
+
+.reaction .text{
+    color: hsl(0, 100%, 67%);
+}
+
+.memory .text{
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal .text{
+    color: hsl(166, 100%, 37%);
+}
+
+.visual .text{
+    color: hsl(234, 85%, 45%);
+}
+
+.Score{
+    font-weight: bold;
 }
