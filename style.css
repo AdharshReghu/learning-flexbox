@@ -175,3 +175,11 @@ p{
 .Score{
     font-weight: bold;
 }
+
+@media (max-width:500px)
+{
+    #wrapper{
+        display: block;
+        height: 100vh;
+    }
+}
