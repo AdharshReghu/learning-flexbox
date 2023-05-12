@@ -184,9 +184,11 @@ p{
     }
     .white-box{
         border-radius: 0px;
+        box-shadow: none;
     }
 
     .blue-box{
+        box-shadow: none;
         border-radius: 0px;
         border-bottom-left-radius: 35px;
         border-bottom-right-radius: 35px;
